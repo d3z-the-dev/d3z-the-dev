@@ -1,1 +1,1 @@
-
+``Vova, їbash' їh blyad' !``
