@@ -1,0 +1,31 @@
+name: Update card
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&langs_count=10&layout=compact&theme=transparent&custom_title=public%20repos&hide_border=true&text_color=FFFFFF
+          path: profile/cards/top-langs.svg
+
+      - name: Commit card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/cards/*.svg
+          git commit -m "generate profile/top-langs card" || exit 0
+          git push
