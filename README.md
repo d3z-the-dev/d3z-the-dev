@@ -1,1 +1,2 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Gloria+Hallelujah&size=24&pause=500&color=F7F7F7&vCenter=true&multiline=true&width=435&lines=Kick+out+the+jams+motherfuckers+!)](https://git.io/typing-svg)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=d3z-the-dev&langs_count=10&layout=compact&theme=transparent&hide_title=true&hide_border=true&text_color=FFFFFF)](https://github.com/d3z-the-dev/github-readme-stats#gh-dark-mode-only)
+[![Stats](https://github-readme-stats.vercel.app/api/?username=d3z-the-dev&layout=compact&theme=transparent&hide_title=true&hide_border=true&text_color=FFFFFF)](https://github.com/d3z-the-dev/github-readme-stats#gh-dark-mode-only)
